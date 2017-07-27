@@ -1,0 +1,28 @@
+.container {
+	width: 950px;
+	margin: 0 auto;
+	font-family:Helvetica;
+	font-weight:100
+}
+
+body {
+	white-space: nowrap;
+	padding: 50px 0px 0px 50px;
+}
+#greeting {
+	display: inline;
+	font-weight: normal;
+	font-color: YellowGreen;
+}
+
+#name {
+	display: inline;
+
+}
+
+#paragraph {
+	padding: 100px 0;
+	font-size: 25px;
+	
+}
+
