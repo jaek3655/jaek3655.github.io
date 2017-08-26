@@ -1,10 +1,10 @@
 body {
 	width: 100%;
 	white-space: nowrap;
-	padding: 80px 0 0 80px;
+	padding: 60px 80px 0 80px;
 }
 
-.content p {
+#content p {
 	font-size: 25px;
 }
 
@@ -16,6 +16,17 @@ body {
 	font-size: 0;
 }
 
-.content a {
+#home {
+	margin: 0 -80px 0 -80px;
+	text-decoration: underline
+}
+
+a {
 	font-size: 30px;
+	padding-left: 45%;
+	text-decoration: underline;
+}
+
+#separation_dots {
+	padding: 23px 0;
 }
