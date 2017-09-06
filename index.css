@@ -1,15 +1,73 @@
 body {
-	width: 100%;
-	white-space: nowrap;
-	padding: 50px 50px 0 80px;
+	display: block;
+
 }
 
-#container {
-	padding: 0 80px ;
+#mainNav {
+	overflow: hidden;
+	background-color: #f2f3f4;
+	padding: 5px 0;
+}
+
+#mainNav a {
+	color: black;
+}
+
+.nav-right {
+	float: right;
+}
+
+.nav-left {
+	float: left;
+}
+
+.page-scroll {
+	padding: 15px;
+}
+
+a {
+	background-color: transparent;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
 	font-family: Helvetica;
-	font-weight: 100
 }
 
+header .intro-text {
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+header .intro-title {
+	font-size: 70px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+header .intro-summary {
+	font-size: 20px;
+	white-space: pre;
+}
+
+.center {
+	text-align: center;
+}
+
+.bg-light-gray {
+	background: #eee;
+}
+
+.section-heading {
+	padding: 100px 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+/*
 #text-section {
 	margin-top: 100px;
 	display: inline;
@@ -44,10 +102,24 @@ body {
 }
 
 #project_list {
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-top: 90px;
+	background-color: red;
+
 }
+
+.col-md-4 {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio-caption {
 	font-size: 30px;
@@ -75,4 +147,51 @@ body {
 }
 
 
+
+
+
+  <div id="text-section">
+	  <p id="greeting">Hi. I'm <strong>Jae Kim</strong>,</p>
+	    <div id="content">
+	    <p>a sophomore studying Computer Science at
+	    <a class="link" target="_self" href="classes.html">University of California, Irvine</a>.</p>
+	    <p>I love working on Computer Science research projects.</p>
+	    <p>Leave me <a class = "link" href="mailto:jaehk11@uci.edu" target="_top">a note</a> or message me on <a class="link" href="https://www.facebook.com/JaeKim20">social media</a>.</p>
+	    <p>Below are some of the projects I've done.</p>
+	    </div>
+	  </div>
+
+
+	  <section id="project_list">
+
+	    <div class="col-md-4">
+
+
+
+	    </div>
+	  </section>
+
+
+
+  <a target="_blank" class="portfolio-link" href="GuessingGame.html">
+    <img src="guessing_game_image.png">
+  </a>
+
+  <div class="portfolio-caption">
+      <h2>Guessing Game</h2>
+      <p class="text-muted">Javascript, HTML, CSS</p>
+  </div>
+
+</div>
+
+
+
+		          <a class="portfolio-link to_the_right">
+		            <img src="question_mark.gif>
+		          </a>
+
+		          <div class="portfolio-caption">
+		              <h2>Coming Soon</h2>
+		              <p class="text-muted"></p>
+*/
 
