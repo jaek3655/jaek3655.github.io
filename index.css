@@ -1,32 +1,30 @@
 body {
 	display: block;
-
 }
 
 header {
 	background-image: url("background.jpg");
-
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
 #mainNav {
 	overflow: hidden;
-	background-color: rgba(242, 243, 244, 0.2);
-	padding: 5px 0;
+	background-color: rgba(18, 41, 84, 0.4);
+	padding: 8px 0;
 	position: fixed;
 	width: 100%;
+
 }
 
 #mainNav a {
-	color: black;
+	color: white;
 }
 
 .nav-right {
 	float: right;
-	margin: 0 5px;
+	margin: 0 15px;
 }
 
 .nav-left {
@@ -34,7 +32,7 @@ header {
 }
 
 .page-scroll {
-	padding: 5px;
+	padding-right:
 }
 
 a {
@@ -42,30 +40,53 @@ a {
 }
 
 .container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+	padding: 0 15px;
+	margin: 0 auto;
 	font-size: 20px;
 	font-family: Helvetica;
 }
 
 header .intro-text {
-	padding-top: 230px;
+	padding-top: 220px;
 	padding-bottom: 90px;
+	margin-bottom: 200px;
+
 }
 
 header .intro-title {
 	color: white;
 	font-size: 80px;
 	font-weight: 700;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	white-space: pre;
 }
 
 header .intro-summary {
+	margin-right: 50px;
 	color: white;
 	font-size: 25px;
-	white-space: pre;
+	font-style: italic;
+
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em black; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+      typing 8s steps(50, end),
+      blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+
+span {
+	font-style: normal;
+	color: black;
 }
 
 .center {
@@ -76,14 +97,20 @@ header .intro-summary {
 	background: #eee;
 }
 
+
 section {
 	margin-bottom: 30px;
 }
 
 .section-heading {
+	text-transform: uppercase;
+	font-weight: bold;
 	padding: 50px 0;
 	font-size: 30px;
-	margin-bottom: 15px;
+}
+
+#about .section-heading {
+	margin-top: -15px;
 }
 
 
@@ -94,120 +121,51 @@ section {
 }
 
 #text-section {
-	margin-left: 10%;
+	margin-left: 12%;
+}
+
+#skills {
+	padding-top: 40px;
+	padding-left: 45%;
 }
 .col-md-4 {
 	padding: 0 15px;
 }
 
+#project-list .container {
+	padding: 0 5%;
+	padding-bottom: 100px;
+}
+
+.project-heading {
+	width: 40%;
+}
+
+.project-title {
+
+}
+
+.project-image {
+	width: 100%;
+}
+
+.project-description {
+	margin-left: 45%;
+}
+
+.description {
+	padding-top: 10px;
+    font-size: 25px;
+}
 
 
+
+.portfolio-link {
+	width: 10;
+}
 
 
 /*
-#text-section {
-	margin-top: 100px;
-	display: inline;
-}
-
-.text-section #greeting {
-	position: relative;
-	left: -25px;
-	font-size: 40px;
-}
-
-.link {
-	color: #dd4d67;
-}
-
-#content{
-	margin-top: 40px;
-	font-size: 25px;
-}
-
-#text-section p {
-	padding: 10px 0;
-}
-
-.portfolio-link {
-
-}
-
-#project_list {
-	background-color: red;
-
-}
-
-.col-md-4 {
-	background-color: blue;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.portfolio-caption {
-	font-size: 30px;
-	color: #19458c;
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    text-align: center;
-    padding: 25px;
-}
-
-.text-muted {
-	font-size: 25px;
-	font-family: "Droid Serif","Helvetica Neue",
-	Helvetica,Arial,sans-serif;
-	font-style: italic;
-}
-
-.col-md-4 {
-	width: 33.33333333%
-}
-
-.to_the_right {
-	padding-left: 16%;
-}
-
-
-
-
-
-  <div id="text-section">
-	  <p id="greeting">Hi. I'm <strong>Jae Kim</strong>,</p>
-	    <div id="content">
-	    <p>a sophomore studying Computer Science at
-	    <a class="link" target="_self" href="classes.html">University of California, Irvine</a>.</p>
-	    <p>I love working on Computer Science research projects.</p>
-	    <p>Leave me <a class = "link" href="mailto:jaehk11@uci.edu" target="_top">a note</a> or message me on <a class="link" href="https://www.facebook.com/JaeKim20">social media</a>.</p>
-	    <p>Below are some of the projects I've done.</p>
-	    </div>
-	  </div>
-
-
-	  <section id="project_list">
-
-	    <div class="col-md-4">
-
-
-
-	    </div>
-	  </section>
-
-
-
-  <a target="_blank" class="portfolio-link" href="GuessingGame.html">
-    <img src="guessing_game_image.png">
-  </a>
 
   <div class="portfolio-caption">
       <h2>Guessing Game</h2>
@@ -216,14 +174,5 @@ section {
 
 </div>
 
-
-
-		          <a class="portfolio-link to_the_right">
-		            <img src="question_mark.gif>
-		          </a>
-
-		          <div class="portfolio-caption">
-		              <h2>Coming Soon</h2>
-		              <p class="text-muted"></p>
 */
 
