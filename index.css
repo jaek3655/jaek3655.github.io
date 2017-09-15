@@ -46,6 +46,10 @@ a {
 	font-family: Helvetica;
 }
 
+#intro {
+	padding-right: 57%;
+}
+
 header .intro-text {
 	padding-top: 220px;
 	padding-bottom: 90px;
@@ -93,29 +97,18 @@ span {
 	text-align: center;
 }
 
-.bg-light-gray {
-	background: #eee;
-}
-
-
 section {
-	margin-bottom: 30px;
+	padding: 60px 0 ;
 }
 
 .section-heading {
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 50px 0;
+	padding-bottom: 30px;
 	font-size: 30px;
 }
 
-#about .section-heading {
-	margin-top: -15px;
-}
-
-
-#greeting {
-	padding: ;
+.about-category {
 	margin-left: -20px;
 	font-size: 30px;
 }
@@ -128,28 +121,31 @@ section {
 	padding-top: 40px;
 	padding-left: 45%;
 }
-.col-md-4 {
-	padding: 0 15px;
+
+#project-list {
+	background: #dedede;
+	padding-bottom: 110px;
 }
 
 #project-list .container {
-	padding: 0 5%;
-	padding-bottom: 60px;
+	padding: 0 3%;
 }
 
-#project-list .row {
-	margin-bottom: 50px;
+.project-space {
+	margin-bottom: 100px;
 }
+
 .project-heading {
 	width: 40%;
 }
 
-.project-title {
-
-}
-
 .project-image {
 	width: 100%;
+	border-radius: 30px;
+	border: solid;
+	border-color: black;
+	box-shadow: 9px 6px 20px;
+
 }
 
 .project-description {
@@ -161,21 +157,21 @@ section {
     font-size: 25px;
 }
 
-
-
 .portfolio-link {
 	width: 10;
 }
 
+#footer {
+	padding: 20px;
+	color: black;
+}
 
-/*
+.footer-image {
+	width: 15%;
+}
 
-  <div class="portfolio-caption">
-      <h2>Guessing Game</h2>
-      <p class="text-muted">Javascript, HTML, CSS</p>
-  </div>
-
-</div>
-
-*/
+.col-sm-4 {
+	white-space: nowrap;
+	text-align: center;
+}
 
