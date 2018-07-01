@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <title>Lucky?</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='Lucky.css'>
+
+  </head>
+  <body>
+
+      <div id='app' class='container center'>
+
+        <div id='headers'>
+          <div id='title-background'>
+            <div>
+              <h1 id='title' class="white-background">Lucky?</h1>
+            </div>
+            
+            <div>
+              <h3 id='subtitle' class="white-background">Guess a number between 1~100!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' class='center shadow' placeholder="#" maxlength='3' autofocus=autofocus></input>
+            <button class='btn btn-success' id='submit'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess light_shadow'>-</li>
+              <li class='guess light_shadow'>-</li>
+              <li class='guess light_shadow'>-</li>
+              <li class='guess light_shadow'>-</li>
+              <li class='guess light_shadow'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button class='btn btn-large center light_shadow' id='reset'>Reset</button>
+            <button class='btn btn-large center light_shadow' id='hint'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+      <div class='row'>
+        <h4>Project by <a href="index.html"><strong>Jae Kim</strong></a></h4>
+      </div>
+    </div>
+
+  <script src="jquery.min.js"></script>
+  <script src="Lucky.js"></script>
+
+  </body>
+</html>

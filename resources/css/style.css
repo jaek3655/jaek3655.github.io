@@ -1,0 +1,235 @@
+
+/* -------------------------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* set elements include margin/padding into their height/width */
+}
+
+html {
+    color: #555;
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 23px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* -------------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-features {
+    line-height: 170%;
+}
+
+.section-features .intro-title {
+    font-size: 130%;
+    padding-bottom: 30px;
+    margin-left: 12%;
+}
+
+.section-features .intro-text {
+    width: 80%;
+    margin-left: 15%;
+    line-height: 250%;
+}
+
+.section-features .classes-link:link,
+.section-features .classes-link:visited {
+    text-decoration: none;
+    color: #2b68f2;
+    transition: color 0.2s;
+}
+
+.section-features .classes-link:hover,
+.section-features .classes-link:active {
+    color: #e67e22;
+}
+
+.projects {
+    background-color: #ebf1ff;
+}
+
+.projects .box {
+    margin-bottom: 60px;
+}
+
+.projects .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.span-4-of-4 {
+    margin-bottom: 40px;
+    display: inline;
+}
+
+.project-headline {
+    text-transform: uppercase;
+    text-align: center;
+    color: #2b68f2;
+    width: 40%;
+    float:left;
+}
+
+.project-headline img:link,
+.project-headline img:visited {
+    text-decoration: none;
+}
+
+.project-headline img:hover,
+.project-headline img:active {
+    text-decoration: none;
+    height: 88%;
+    width: 93%;
+}
+
+.project-info {
+    width:60%;
+    float: left;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+
+.information {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* ----- HEADING ----- */
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 450%;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 150%;
+    color: black;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 120%;
+    margin-bottom: 15px;
+}
+
+/* ----- PARAGRAPHS ----- */
+.box p {
+    font-size: 90%;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin: 40px 0 10px 0;
+    
+}
+
+/* ----- IMAGES ----- */
+.projects img {
+    height: 85%;
+    width: 90%;
+    border-radius: 100px;
+    border: 2px solid #000;
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-resume:link,
+.btn-resume:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    margin: 20px 0 0 15%;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-resume:hover,
+.btn-resume:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+
+header {
+    background-image: url(img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1240px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}

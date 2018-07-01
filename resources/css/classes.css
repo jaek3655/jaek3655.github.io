@@ -1,0 +1,32 @@
+body {
+	width: 100%;
+	white-space: nowrap;
+	padding: 60px 80px 0 80px;
+}
+
+#content p {
+	font-size: 25px;
+}
+
+.aligncenter {
+	width: 200px;
+	height: 0;
+	border-top: 2px
+	dotted #dd4d67;
+	font-size: 0;
+}
+
+#home {
+	margin: 0 -80px 0 -80px;
+	text-decoration: underline
+}
+
+a {
+	font-size: 30px;
+	padding-left: 45%;
+	text-decoration: underline;
+}
+
+#separation_dots {
+	padding: 23px 0;
+}
