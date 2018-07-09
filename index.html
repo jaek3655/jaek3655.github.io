@@ -2,9 +2,12 @@
 <html lang="en">
 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <title>Jae Kim</title>
@@ -15,68 +18,109 @@
             <nav>
                 <div class="row">
                     <ul class="main-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
                     </ul>
                 </div>
             </nav>
             
             <div class="hero-text-box">
                 <h1>Jae Kim</h1>
-                <h2>#software_engineer</h2>
+                <h2>/* software_engineer */</h2>
             </div>
         </header>
         
-        <section class="section-features">
+        <section class="section-features" id="about">
             <div class="row">
-                <h3 class="intro-title">Hi. I'm <strong>Jae</strong>,</h3>
-                <p class="intro-text">an undergraduate student at the <a class="classes-link" target="_self" href="classes.html">University of California, Irvine</a> studying Computer Science.<br/>I have passion in CS research projects.</p>
-                <a class="btn btn-resume" href="resources/data/resume.pdf" target="_blank">view resume</a>
+                <h3 class="intro-title js--wp-1">Hi. I'm <strong>Jae</strong>,</h3>
+                <p class="intro-text">an undergraduate student at the <a class="classes-link" target="_self" href="classes.html">University of California, Irvine</a> studying Computer Science.<br/>I have passion in CS projects.</p>
             </div>
             
             <div class="row information">
                 <div class="col span-1-of-3 box">
                     <i class="ion-ios-person-outline icon-big"></i>
                     <h3>Interests</h3>
-                    <p>Machine Learning<br/>Design<br/>Soccer<br/>Bowling</p>
+                    <div class="features-detail">
+                        <p>Machine Learning<br/>Design<br/>Soccer<br/>Bowling</p>
+                    </div>
                 </div>
                 <div class="col span-1-of-3 box">
                     <i class="ion-social-nodejs icon-big"></i>
                     <h3>Languages</h3>
-                    <p>JavaScript<br/>Python<br/>C++<br/>Git</p>
+                    <div class="features-detail">
+                        <p>Python<br/>JavaScript<br/>C++<br/>PHP</p>
+                    </div>
                 </div>
                 <div class="col span-1-of-3 box">
                     <i class="ion-social-android-outline icon-big"></i>
                     <h3>Technologies</h3>
-                    <p>HTML/CSS<br/>Linux<br/>SSH</p>
+                    <div class="features-detail">
+                        <p>HTML/CSS<br/>jQuery<br/>SSH</p>
+                    </div>
                 </div>
             </div>
         </section>
         
-        <section class="section-features projects">
+        <section class="section-projects" id="projects">
             <div class="row">
-            <h3 class="title">Projects</h3>
-                <div class="col span-4-of-4 box">
+                <h3 class="title">Projects</h3>
+            </div>
+            <div class="row">
+                <!--
+                <div class="col span-6-of-6 box">
                     <div class="project-headline">
-                        <h3>Lucky</h3>
-                        <a target="_blank" href="resources/Lucky/Lucky.html">
-                            <img class="img" src="resources/img/lucky_image.png" alt="Lucky?">
+                        <a target="_blank" href="#">
+                            <h3>Budget App</h3>
+                            <img class="img img-project" src="" alt="">
                         </a>
                     </div>
                     <div class="project-info">
-                        <p><strong>Lucky</strong> is a simple game that tests how lucky you are, by giving you five chances to correctly guess a randomly generated number from 1 to 100.</p>
+                        <p><strong>Budget App</strong> is to be added </p>
                         <p><br/><strong>Features:</strong></p>
-                        <p>• responds and indicates how close the guess is</p> 
-                        <p>• gives a hint using Fisher-Yates shuffle algorithm</p>
-                        <p class="text-muted" align="right"><strong>Technologies Used:</strong> JavaScript, jQuery, HTML, CSS<p>
+                        <p>• </p>
+                        <p>• </p>
+                        <p><strong>Technologies Used:</strong></p>
                     </div>
                 </div>
                 
-                <div class="col span-4-of-4 box">
+                <div class="col span-6-of-6 box">
                     <div class="project-headline">
-                        <h3>Connect Four</h3>
+                        <a target="_blank" href="#">
+                            <h3></h3>
+                            <img class="img img-project" src="" alt="">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p><strong></strong> is to be added </p>
+                        <p><br/><strong>Features:</strong></p>
+                        <p>• </p>
+                        <p>• </p>
+                        <p><strong>Technologies Used:</strong></p>
+                    </div>
+                </div>
+                -->
+                <div class="col span-6-of-6 box">
+                    <div class="project-headline">
+                        <a target="_blank" href="resources/omnifood/index.html">
+                            <h3>Omnifood</h3>
+                            <img class="img img-project" src="resources/img/Omnifood_image.png" alt="Omnifood">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p><strong>Omnifood</strong> is a fictional food delivery service with the mission to bring affordable and healthy meals.</p>
+                        <p><br/><strong>Features:</strong></p>
+                        <p>• fluid grid and media queries for responsive web design on any device</p>
+                        <p>• PHP for sending a form through email</p>
+                        <p><strong>Technologies Used:</strong> jQuery, PHP, HTML/CSS</p>
+                    </div>
+                </div>
+
+
+                <div class="col span-6-of-6 box">
+                    <div class="project-headline">
                         <a target="_blank" href="resources/connectFour/connectFour.html">
-                            <img class="img" src="resources/img/connectFour_image.png" alt="Connect Four">
+                            <h3>Connect Four</h3>
+                            <img class="img img-project" src="resources/img/connectFour_image.png" alt="Connect Four">
                         </a>
                     </div>
                     <div class="project-info">
@@ -84,15 +128,15 @@
                         <p><br/><strong>Features:</strong></p>
                         <p>• Accurate gameplay that catches exceptions</p> 
                         <p>• Uses socket to connect to a server that gives option to play against an AI</p> 
-                        <p class="text-muted" align="right"><strong>Technologies Used:</strong> Python<p>
+                        <p><strong>Technologies Used:</strong> Python</p>
                     </div>
                 </div>
-                
-                <div class="col span-4-of-4 box">
+
+                <div class="col span-6-of-6 box">
                     <div class="project-headline">
-                        <h3>Take Me To</h3>
                         <a target="_blank" href="resources/TakeMeTo/TakeMeTo.html">
-                            <img class="img" src="resources/img/TakeMeTo_image.png" alt="Take Me To">
+                            <h3>Take Me To</h3>
+                            <img class="img img-project" src="resources/img/TakeMeTo_image.png" alt="Take Me To">
                         </a>
                     </div>
                     <div class="project-info">
@@ -100,41 +144,37 @@
                         <p><br/><strong>Features:</strong></p>
                         <p>• Interacts with the Open MapQuest APIs</p>
                         <p>• Builds URLs, makes HTTP requests and parses JSON responses</p> 
-                        <p class="text-muted" align="right"><strong>Technologies Used:</strong> Python<p>
+                        <p><strong>Technologies Used:</strong> Python</p>
                     </div>
                 </div>
             </div>
         </section>
         
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <a class="btn btn-resume" href="resources/data/resume.pdf" target="_blank">view resume</a>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://plus.google.com/discover"><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2018 by <a href="http:\\jaekim.me">Jae Kim</a>. All rights reserved.
+                </p>
+            </div>
+        </footer>
         
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script type="text/javascript" src="selectivizr.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>  <!-- Always put this last -->
         
-
-        
-        
-
-
-
-
-    <!--
-    <div id="footer">
-      <div class="container">
-        <div class="col-sm-4 second">
-          <a target="_blank" href="https://github.com/">
-            <img src="github_image.png" class="footer-image"></img>
-          </a>
-        </div>
-        <div class="col-sm-4 first">
-          <a target="_top" href="mailto:jaehk11@uci.edu">
-            <img src="gmail_image.png" class="footer-image"></img>
-          </a>
-        </div>
-        <div class="col-sm-4 third">
-          <a target="_blank" href="https://www.linkedin.com/">
-            <img src="linkedIn_image.png" class="footer-image"></img>
-          </a>
-        </div>
-      </div>
-    </div>
-    -->
-
-  </body>
+    </body>
+</html>
