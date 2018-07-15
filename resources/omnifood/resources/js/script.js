@@ -81,4 +81,25 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }        
     });
+    
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 33.67,
+        lng: -117.73,
+        zoom: 12
+    });
+    
+    map.addMarker({
+        lat: 33.672564, 
+        lng: -117.855585,
+        title: 'Irvine',
+        infoWindow: {
+            content: '<p>Our Orange County HQ</p>'
+        }
+
+    });
+    
+    
+    
 });
