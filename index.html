@@ -1,190 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-        <title>Jae Kim</title>
-    </head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Jae Kim</title>
+    <script src="https://kit.fontawesome.com/6f954055ac.js" crossorigin="anonymous"></script> 
+  </head>
+		
+  <body onload="script();">
+    <header>
+			<div class="main-cover">
+				<h1>Jae Kim</h1>
+				<h2>/* software_developer */</h2>
+			</div>
+    </header>
     
-    <body>
-        <header>
-            <nav>
-                <div class="row">
-                    <ul class="main-nav">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                    </ul>
-                </div>
-            </nav>
-            
-            <div class="hero-text-box">
-                <h1>Jae Kim</h1>
-                <h2>/* software_engineer */</h2>
-            </div>
-        </header>
-        
-        <section class="section-features" id="about">
-            <div class="row">
-                <h3 class="intro-title js--wp-1">Hi. I'm <strong>Jae</strong>,</h3>
-                <p class="intro-text">an undergraduate student at the <a class="classes-link" target="_self" href="classes.html">University of California, Irvine</a> studying Computer Science with specialization in intelligent systems.<br/>I have passion in CS projects.</p>
-            </div>
-            
-            <div class="row information">
-                <div class="col span-1-of-3 box">
-                    <i class="ion-ios-person-outline icon-big"></i>
-                    <h3>Interests</h3>
-                    <div class="features-detail">
-                        <p>Machine Learning<br/>Design<br/>Soccer<br/>Bowling</p>
-                    </div>
-                </div>
-                <div class="col span-1-of-3 box">
-                    <i class="ion-social-nodejs icon-big"></i>
-                    <h3>Languages</h3>
-                    <div class="features-detail">
-                        <p>Python<br/>JavaScript<br/>C++</p>
-                    </div>
-                </div>
-                <div class="col span-1-of-3 box">
-                    <i class="ion-social-android-outline icon-big"></i>
-                    <h3>Technologies</h3>
-                    <div class="features-detail">
-                        <p>HTML/CSS<br/>jQuery<br/>SSH</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section class="section-projects" id="projects">
-            <div class="row">
-                <h3 class="title">Projects</h3>
-            </div>
-            <div class="row">
-                
-                <div class="col span-6-of-6 box">
-                    <div class="project-headline">
-                        <a target="_blank" href="resources/financier/index.html">
-                            <h3>Financier</h3>
-                            <img class="img img-project" src="resources/img/financier_image.png" alt="Financier">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p><strong>Financier</strong> is a budget app with flexible income and expense management.</p>
-                        <p><br/><strong>Features:</strong></p>
-                        <p>• </p>
-                        <p>• </p>
-                        <p><strong>Technologies Used:</strong> JavaScript, HTML/CSS</p>
-                    </div>
-                </div>
+    <section class="section-intro" id="about">
+			<div class="row row-intro">
+				<h3 class="intro-title">Hi. I'm <strong>Jae</strong>,</h3>
+				<p class="intro-text">a recent graduate from the University of California, Irvine with a bachelor's degree in Computer Science.
+				<br/>I have a passion for learning code and doing CS projects.</p>
+				<ul class="social-links">
+					<li><a target="_blank" href="https://drive.google.com/file/d/1cTOZ_Phr_WdpwQeBhACqOTs_LOzuqcur/view?usp=sharing"><i class="fas fa-file-alt"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/jaekim519/"><i class="fab fa-linkedin"></i></i></a></li>
+					<li><a target="_blank" href="https://github.com/jaek3655"><i class="fab fa-github-square"></i></a></li>
+				</ul>
+      </div>
+      
+      <div class="row row-features">
+        <div class="col span-1-of-2 box">
+          <h3 class="features-title">Interests</h3>
+          <ul class="features-detail">
+            <li><span><i class="fas fa-newspaper logo-yellow"></i></span><span>Reading Medium tech articles</span></li>
+            <li><span><i class="fas fa-pencil-ruler logo-yellow"></i></span><span>Design</span></li>
+            <li><span><i class="fas fa-brain logo-yellow"></i></span><span>Pursuing a healthy lifestyle</span></li>
+            <li><span><i class="fas fa-futbol logo-yellow"></i></span><span>Sports</span></li>
+          </ul>
+        </div>
 
-                <div class="col span-6-of-6 box">
-                    <div class="project-headline">
-                        <a target="_blank" href="resources/stacks/index.html">
-                            <h3>Stacks</h3>
-                            <img class="img img-project" src="resources/img/stacks_image.png" alt="Stacks">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p><strong>Stacks</strong> is a two-player game in which you alternately roll a die to make stacks and reach the top to win.</p>
-                        <p><br/><strong>Features:</strong></p>
-                        <p>• </p>
-                        <p>• </p>
-                        <p><strong>Technologies Used:</strong> JavaScript, HTML/CSS</p>
-                    </div>
-                </div>
-                
-                <div class="col span-6-of-6 box">
-                    <div class="project-headline">
-                        <a target="_blank" href="resources/foody/index.html">
-                            <h3>Foody</h3>
-                            <img class="img img-project" src="resources/img/foody_image.png" alt="Foody">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p><strong>Foody</strong> is a fictional food delivery service with the mission to bring affordable and healthy meals.</p>
-                        <p><br/><strong>Features:</strong></p>
-                        <p>• fluid grid and media queries for responsive web design on any device</p>
-                        <p>• PHP for sending a form through email</p>
-                        <p><strong>Technologies Used:</strong> jQuery, PHP, HTML/CSS</p>
-                    </div>
-                </div>
-
-                <div class="col span-6-of-6 box">
-                    <div class="project-headline">
-                        <a target="_blank" href="resources/connectFour/connectFour.html">
-                            <h3>Connect Four</h3>
-                            <img class="img img-project" src="resources/img/connectFour_image.png" alt="Connect Four">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p><strong>Connect Four</strong> is a two-player board game in which the players take turns and drop discs to connect 4 discs.</p>
-                        <p><br/><strong>Features:</strong></p>
-                        <p>• Accurate gameplay that catches exceptions</p> 
-                        <p>• Uses socket to connect to a server that gives option to play against an AI</p> 
-                        <p><strong>Technologies Used:</strong> Python</p>
-                    </div>
-                </div>
-
-                <div class="col span-6-of-6 box">
-                    <div class="project-headline">
-                        <a target="_blank" href="resources/TakeMeTo/takeMeTo.html">
-                            <h3>Take Me To</h3>
-                            <img class="img img-project" src="resources/img/takeMeTo_image.png" alt="Take Me To">
-                        </a>
-                    </div>
-                    <div class="project-info">
-                        <p><strong>Take Me To</strong> is a geographic information application that shows distance, elevation, and travel time of multiple input locations.</p>
-                        <p><br/><strong>Features:</strong></p>
-                        <p>• Interacts with the Open MapQuest APIs</p>
-                        <p>• Builds URLs, makes HTTP requests and parses JSON responses</p> 
-                        <p><strong>Technologies Used:</strong> Python</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <div class="row">
-                <div class="col span-1-of-2">
-                    <a class="btn btn-resume" href="resources/data/resume.pdf" target="_blank">view resume</a>
-                </div>
-                <div class="col span-1-of-2">
-                    <ul class="social-links">
-                        <li><a target="_blank" href="https://www.linkedin.com/"><i class="ion-social-linkedin"></i></a></li>
-                        <li><a target="_blank" href="https://plus.google.com/discover"><i class="ion-social-googleplus"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <p>
-                    Copyright &copy; 2018 by <a href="http:\\jaekim.me">Jae Kim</a>. All rights reserved.
-                </p>
-            </div>
-        </footer>
-        
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script type="text/javascript" src="selectivizr.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <div class="col span-1-of-2 box">
+          <h3 class="features-title">Technologies</h3>
+          <div class="features-detail">
+            <li><span><i class="fab fa-python logo-blue"></i></span><span>Python</span></li>
+            <li><span><i class="fab fa-js-square logo-blue"></i></span><span>JavaScript</span></li>
+            <li><span><i class="fab fa-react logo-blue"></i></span><span>React.js</span></li>
+            <li><span><i class="fas fa-spider logo-blue"></i></span><span>C++</span></li>
+            <li><span><i class="fas fa-code logo-blue"></i></span><span>HTML/CSS</span></li>
+          </div>
+        </div>
+      </div>
+    </section>
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105661122-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <section class="section-projects" id="projects">
+      <div class="row">
+        <h3 class="title">Projects</h3>
+      </div>
 
-      gtag('config', 'UA-105661122-1');
-    </script>
-        
-    <script src="resources/js/script.js"></script>
-        
-    </body>
+      <div class="row">
+        <div class="col span-6-of-6 box">
+          <div class="project-headline">
+            <h3>Movie Collector</h3>
+              <a target="_blank" href="resources/financier/index.html">
+                <img class="img img-project" src="resources/img/movie_collector_image.png" alt="Financier" />
+              </a>
+          
+          </div>
+
+          <div class="project-info">
+            <p>Utilized React.js and The Movie Database API to create a movie collecting website</p>
+            <p><br/><strong>Features:</strong></p>
+            <p>• Interactive watchlist and watched sections using React context to provide a
+              flexible data flow between pages</p>
+            <p>• Firebase authentication for handling user login and database for saving user information</p>
+            <p><strong>Created with:</strong> JavaScript (React.js), CSS, Firebase</p>
+          </div>
+        </div>
+
+        <div class="col span-6-of-6 box">
+          <div class="project-headline">
+            <h3>Web Crawler</h3>
+            <a target="_blank" href="resources/financier/index.html">
+              <img class="img img-project" src="resources/img/financier_image.png" alt="Financier" />
+            </a>
+          </div>
+
+          <div class="project-info">
+            <p>Utilized React.js and The Movie Database API to create a movie collecting website</p>
+            <p><br/><strong>Features:</strong></p>
+            <p>• Extended a Python Web-crawling framework to develop an autonomous agent to
+              intelligently collect metadata on targeted networks in a well-behaved manner</p>
+            <p>• Implemented HTML parsing and Web-crawling techniques using tools such as
+              BeautifulSoup and regular expression to tokenize and parse 50,000 HTML documents to retrieve information</p>
+            <p><strong>Created with:</strong> Python, Tkinter</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="row">
+        <p>Copyright &copy; 2021 by Jae Kim</p>
+      </div>
+    </footer>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script type="text/javascript" src="selectivizr.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105661122-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105661122-1');
+  </script>
+    
+  <script src="resources/js/script.js"></script>
+    
+  </body>
 </html>
